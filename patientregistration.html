@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>patientregestration</title>
+</head>
+
+<body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blood Bank|Home</title>
+        <link rel="stylesheet" href="patientregistration.css">
+    </head>
+
+    <body>
+        <header><span class="logo"><img src="logo.png" alt="img"></span>
+            <span>
+                <center><br>
+                    <h1>LIFE BLOOD SERVICES</h1>
+                </center>
+            </span>
+            <br>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="userlogin.html">User Login</a></li>
+                <li><a class="active" href="#admin">Admin</a></li>
+            </ul>
+        </header>
+        <main>
+            <h2 class="patientregistrationh2">Patient Registration</h2>
+            <form action="patientregistration.php" method="post">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-10">
+                            <label for="fname">First Name:</label>
+                        </div>
+                        <div class="col-90">
+                            <input type="text" id="fname" name="PFname" placeholder="Enter Patient's first name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <label for="lname">Last Name:</label>
+                        </div>
+                        <div class="col-90">
+                            <input type="text" id="lname" name="PLname" placeholder="Enter Patient's last name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <label for="email">Email:</label>
+                        </div>
+                        <div class="col-90">
+                            <input type="email" id="email" name="P_email" placeholder="it should contain @,.">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <label for="mobile">Mobile:</label>
+                        </div>
+                        <div class="col-90">
+                            <input type="tel" id="mobile" name="P_contact" placeholder="only 10 digits are allowed">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <label for="gender">Gender:</label>
+                        </div>
+                        <div class="col-90">
+                            <input type="text" id="gender" name="Gender" placeholder="Enter Patient's gender">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <label for="address">Address:</label>
+                        </div>
+                        <div class="col-90">
+                            <textarea name="Address" id="address" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <label for="bloodgroup">Blood Group:</label>
+                        </div>
+                        <div class="col-90">
+                            <input type="text" id="bloodgroup" name="PBlood_group"
+                                placeholder="Enter Patient's blood group">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <label for="password">Password:</label>
+                        </div>
+                        <div class="col-90">
+                            <input type="password" id="password" name="P_Password"
+                                placeholder="Plese Set Your Password">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <label for="age">Age:</label>
+                        </div>
+                        <div class="col-90">
+                            <input type="text" id="age" name="P_age" placeholder="Enter Patient's age">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <label for="Employee_id">Rigistrer ID:</label>
+                        </div>
+                        <div class="col-90">
+                            <input type="text" id="Employee_id" name="E_id" placeholder="Enter Registerer ID">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <label for="Doctor_id">Doctors ID:</label>
+                        </div>
+                        <div class="col-90">
+                            <input type="text" id="Doctor_id" name="D_id" placeholder="Enter Doctor's ID">
+                        </div>
+                    </div>
+
+                    <input type="submit" class="btn btn-primary" />
+                </div>
+            </form>
+        </main>
+        <footer>
+            <hr>
+            <p> For any queries</p>
+            <p style="color:grey"> Contact us<br>
+                211210054@nitdelhi.ac.in,211210041@nitdelhi.ac.in,211210064@nitdelhi.ac.in</p>
+            <hr>
+        </footer>
+    </body>
+
+</html>

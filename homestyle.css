@@ -1,0 +1,152 @@
+span.logo{
+    float: left;
+    width: 250px;
+    height: 130px;
+}
+span center{
+    float: none;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 1000;
+    font-size: larger;
+    height: 140px;
+    color: rgb(244, 79, 79);
+    background-color: rgb(227, 226, 226);
+}
+a:link {
+    color:  rgb(14, 146, 5);
+	}
+	
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(205, 205, 205);
+    text-decoration: underline;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: rgb(12, 11, 11);
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+
+.active {
+    color: #138817e4;
+    text-decoration: underline;
+}
+span.requestblood {
+    float: left;
+    align-items: baseline;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-right: thick;
+    
+}
+span.requestbloodimage{
+
+    margin-left: 200px;
+}
+button.requestbloodbutton{
+    border-radius: 10px;
+    background-color: rgb(227, 48, 48);
+    color: white;
+    height: 40px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+a.requestbloodbutton{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    border-color:  rgb(227, 48, 48);
+}
+span.donateblood {
+    float: left;
+    align-items: baseline;
+    width: 50%;  
+    margin-bottom: 93px; 
+}
+
+span.donateblood img{
+    float: left;
+    height: 160px;
+    margin-left: 100px ;
+    margin-top: 20px;
+    
+}
+button.donatebloodbutton{
+    border-radius: 10px;
+    background-color:green;
+    color: white;
+    height: 40px;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+a.donatebloodbutton{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    border-color: green;
+}
+span.wyndb{
+    margin-left: 50px;
+    float: left;
+}
+
+textarea {
+    resize: none;
+}
+
+label.wyndb{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: larger;
+    background-color: rgb(255, 38, 0);
+    color: white;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin-left: 50px;
+
+}
+textarea.wyndb{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    margin-left: 50px;
+    border-radius: 10px;
+    padding: 12px 16px;
+}
+label.ore{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: larger;
+    background-color: rgba(8, 201, 69, 0.766);
+    color: white;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin-left: 50px;
+
+}
+textarea.ore{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    margin-left: 50px;
+    border-radius: 10px;
+    padding: 12px 16px;
+    margin-top: 20px;
+}
+

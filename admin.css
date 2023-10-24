@@ -1,0 +1,75 @@
+span.logo{
+    float: left;
+    width: 250px;
+    height: 130px;
+}
+span center{
+    float: none;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 1000;
+    font-size: larger;
+    height: 140px;
+    color: rgb(244, 79, 79);
+    background-color: rgb(227, 226, 226);
+}
+a:link {
+    color:  rgb(14, 146, 5);
+	}
+	
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(205, 205, 205);
+    text-decoration: underline;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: rgb(12, 11, 11);
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+
+.active {
+    color: #138817e4;
+    text-decoration: underline;
+}
+a.patientregistration{
+    
+    color: black;
+    background-color: rgb(195, 195, 195);
+    width: 300px;
+    height: 50px;
+    padding: 12px 16px;
+    margin-left: 100px;
+    border-radius: 5px;
+   
+}
+a.addanadmin{
+    
+    color: black;
+    background-color: rgb(195, 195, 195);
+    width: 300px;
+    height: 50px;
+    padding: 12px 16px;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+a.addablooddonation{
+    
+    color: black;
+    background-color: rgb(195, 195, 195);
+    width: 300px;
+    height: 50px;
+    padding: 12px 16px;
+    margin-left: 100px;
+    border-radius: 5px;
+}
